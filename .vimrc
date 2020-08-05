@@ -57,6 +57,7 @@ Plugin 'simplyzhao/cscope_maps.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 au VimEnter *  NERDTree
+set t_Co=256
 colorscheme xoria256
 "colorscheme zellner
 
